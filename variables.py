@@ -25,3 +25,9 @@ print(name + '  is doing well in geography.')
 ›Your son John is failing 2 subjects.
 ›John will need to redo 2 courses.
 ›Eric is doing well in geography.
+
+#Escaping string literals
+#use double quotes
+a="it's"
+#or
+b='it\'s'
