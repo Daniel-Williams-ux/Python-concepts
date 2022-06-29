@@ -80,3 +80,13 @@ c1 = int("3.4")   # c1 will be...  ›Traceback (most recent call last): ValueEr
 c1 = int(float("3.4")) 
 #console
 >3
+
+
+print('Variables & Datatypes - Exercise')
+#Create appropriate Variables for Item name, the price 
+#and how many you have in stock
+
+item_name = 'widget'
+price = 23.5
+inventory = 100
+print(item_name, price, inventory)
