@@ -66,7 +66,7 @@ print("**Thank you for playing!**")
 #if everything goes smoothly without the error, we add our 'else' and 'finally' statement.
 try:
     num=int(input('Enter a number: '))
-    print("30 divided by",num, "is: ", 30/num)
+   num1 = 30/num
 except ZeroDivisionError as err:
     print(err, "You can't divide by Zero!!!")
 except ValueError as err:
