@@ -31,3 +31,11 @@ try:
 except ValueError:
     print("Bad value!")
 print("**Thank you for playing!**")
+
+#More
+try:
+    num=int(input('Enter a number: '))
+    print("30 divided by",num, "is: ", 30/num)
+except ZeroDivisionError:
+    print("You can't divide by Zero!!!")
+print("**Thank you for playing!**")
