@@ -22,3 +22,12 @@ try:
 except:
     print("Invalid Input!")
 print("**Thank you for playing!**")
+
+
+#We can customize it
+try:
+    num=int(input('Enter a number: '))
+    print("30 divided by",num, "is: ", 30/num)
+except ValueError:
+    print("Bad value!")
+print("**Thank you for playing!**")
