@@ -38,6 +38,8 @@ film_1 = Movie("Life of Brian",1979,8.1,True)
 film_2 = Movie("The Holy Grail",1975,8.2,True)
 
 film_2.nice_print()
+#or
+Movie.nice_print(film_2)
 #CONSOLE
 #›Title: The Holy Grail
 #›Year of production: 1975
