@@ -30,4 +30,4 @@ Traceback (most recent call last):
 ZeroDivisionError: division by zero
 '''
 
-#source: codecademy
+#reference: codecademy
