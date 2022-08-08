@@ -15,9 +15,11 @@ print(32 % 3)
 print(44 % 2)
 #Here, we use the modulo operator to find the remainder of division operations. We see that 29 % 5 equals 4, 32 % 3 equals 2, and 44 % 2 equals 0.
 
-#The modulo operator is useful in programming when we want to perform an action every nth-time the code is run. Can the result of a modulo operation be larger than the divisor? Why or why not?
+#The modulo operator is useful in programming when we want to perform an action every nth-time the code is run. Can the result of a 
+#modulo operation be larger than the divisor? Why or why not?
 
 #Instructions
+"""
 1.
 You’re trying to divide a group into four teams. All of you count off, and you get number 27.
 
@@ -30,11 +32,12 @@ Print out my_team. What number team are you on?
 Checkpoint 3 Passed
 3.
 Food for thought: what number team are the two people next to you (26 and 28) on? What are the numbers for all 4 teams? (Optional Challenge Question)
+"""
 
-Checkpoint 4 Passed
+my_team = 27 % 4
+print(my_team)
 
-Stuck? Get a hint
-Concept Review
-Want to quickly review some of the concepts you’ve been learning? Take a look at this material's cheatsheet!
-Community Forums
-Get help and ask questions in the Codecademy Forums.
+print(3)
+
+my_team = 26 % 4
+print(my_team)
